@@ -1,0 +1,52 @@
+#connect-container div {
+    padding: 5px;
+}
+
+#console-container {
+    float: left;
+    margin-left: 15px;
+    width: 400px;
+}
+
+#console {
+    border: 1px solid #CCCCCC;
+    border-right-color: #999999;
+    border-bottom-color: #999999;
+    height: 170px;
+    overflow-y: scroll;
+    padding: 5px;
+    width: 100%;
+}
+
+#console p {
+    padding: 0;
+    margin: 0;
+}
+
+.champion-row {
+    text-align: center;
+}
+
+.site__header {
+    -webkit-animation: bounceInUp 1s;
+}
+
+.champion-name {
+    margin: 100px 0;
+    color: #007bff;
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
+    /*-webkit-animation: hue 60s infinite linear;*/
+}
+
+@media (min-width: 650px) {
+    .mega {
+        font-size: 5rem;
+        line-height: 1;
+    }
+}
+
+.round {
+    width: 100px;
+    height: 100px;
+}

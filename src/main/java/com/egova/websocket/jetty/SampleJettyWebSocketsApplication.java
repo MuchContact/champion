@@ -56,7 +56,7 @@ public class SampleJettyWebSocketsApplication extends SpringBootServletInitializ
 
 	@Bean
 	public EchoService echoService() {
-		return new DefaultEchoService("Did you say \"%s\"?");
+		return new DefaultEchoService("%s");
 	}
 
 	@Bean
