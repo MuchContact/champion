@@ -40,7 +40,7 @@ import org.springframework.web.socket.server.standard.ServerEndpointExporter;
 @Configuration
 @EnableAutoConfiguration
 @EnableWebSocket
-public class SampleJettyWebSocketsApplication extends SpringBootServletInitializer
+public class ChampionApplication extends SpringBootServletInitializer
 		implements WebSocketConfigurer {
 
 	@Override
@@ -51,7 +51,7 @@ public class SampleJettyWebSocketsApplication extends SpringBootServletInitializ
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(SampleJettyWebSocketsApplication.class);
+		return application.sources(ChampionApplication.class);
 	}
 
 	@Bean
@@ -85,7 +85,7 @@ public class SampleJettyWebSocketsApplication extends SpringBootServletInitializ
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(SampleJettyWebSocketsApplication.class, args);
+        SpringApplication.run(ChampionApplication.class, args);
 	}
 
 }
